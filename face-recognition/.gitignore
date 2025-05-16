@@ -1,0 +1,19 @@
+# === face-recognition specific ignore ===
+
+# Trained model
+model.yml
+
+# Local data used for training
+data/
+faces.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Webcam preview screenshots (if saved)
+*.png
+*.jpg
+
+# Temp testing code
+temp*.py
